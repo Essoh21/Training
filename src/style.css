@@ -4,9 +4,60 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    user-select: none;
 }
 
 h1 {
     font-family: sans-serif;
     color: #998;
+}
+
+button {
+    height: 2rem;
+    padding: .3rem .5rem;
+    margin-bottom: .2rem;
+    border: 1px solid #998;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #999;
+    font-weight: bold;
+}
+
+button:active {
+    background-color: #996;
+}
+
+.search {
+    height: 2rem;
+    border: 1px solid #998;
+    border-radius: .2rem;
+    color: #998;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.searchContainer {
+    margin-top: .5rem;
+    display: flex;
+}
+
+span {
+    background-color: #ddd;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .2rem;
+    cursor: pointer;
+}
+
+
+span:active {
+    background-color: #999;
+}
+
+span:hover {
+    opacity: .6;
 }
